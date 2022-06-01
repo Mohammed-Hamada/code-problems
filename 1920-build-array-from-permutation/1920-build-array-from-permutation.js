@@ -5,8 +5,8 @@
 
 const buildArray = (nums) => {
   let ans = [];
-  nums.forEach((num, index) => {
-    ans.push(nums[nums[index]]);
-  });
+  for (let i = 0; i < nums.length; ++i) {
+    ans.push(nums[nums[i]]);
+  }
   return ans;
 };
