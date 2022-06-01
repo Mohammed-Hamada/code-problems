@@ -5,8 +5,10 @@
 
 const buildArray = (nums) => {
   let ans = [];
-  for(let i = 0; i < nums.length; i++){
-            ans[i] = nums[nums[i]];
-        }
+    let i = 0;
+    while(i < nums.length){
+        ans[i] = nums[nums[i]];
+        i++;
+    }
         return ans;     
 };
