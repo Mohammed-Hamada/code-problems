@@ -12,3 +12,10 @@ const containsDuplicate = (nums) => {
   }
   return false
 };
+
+// Another Solution
+/*
+const containsDuplicate = (nums) => {
+  return new Set(nums).size !== nums.length;
+};
+*/
