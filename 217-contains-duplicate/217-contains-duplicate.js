@@ -3,5 +3,5 @@
  * @return {boolean}
  */
 const containsDuplicate = (nums) => {
-  return new Set(nums).size < nums.length;
+  return new Set(nums).size !== nums.length;
 };
