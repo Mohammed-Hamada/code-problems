@@ -22,9 +22,9 @@ class MyQueue {
   }
 
   peek(): number {
-    return this.s1.length && !this.s2.length
-      ? this.s1[0]
-      : this.s2[this.s2.length - 1];
+    return this.s2.length 
+      ? this.s2[this.s2.length - 1]
+      : this.s1[0];
   }
 
   empty(): boolean {
